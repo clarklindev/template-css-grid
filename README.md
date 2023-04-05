@@ -1,3 +1,7 @@
+## Run example
+
+- open with live-server
+
 ## font size
 
 - set base font size on body
@@ -49,18 +53,20 @@ body {
 
 ## css grid
 
-- grid area:<grid-row-start>/<grid-column-start>/<grid-row-end>/<grid-column-end>
+```css
+- grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>
 - grid-area: 1/2/1/3;
 
 OR
 
-- specify <start column> / <end column>
+- grid-column: <start column> / <end column>
 - grid-column: 1/3
 
 OR
 
 - grid-column-start:
 - grid-column-end:
+```
 
 <!-- ---------------------------------------------------------------------------------------- -->
 
